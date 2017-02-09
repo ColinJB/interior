@@ -4,27 +4,53 @@
   padding: 4px;
   margin: 6px;
 }
+
 .during {
   float:left;
   border: 4px solid #995c00;
   padding: 4px;
   margin: 6px;
 }
+
 .after {
   float: left;
   border: 4px solid #995c00;
   padding: 4px;
   margin: 6px;
 }
+
+#vert {
+  float: right;
+  margin-top: 70px;
+  margin-right: 100px;
+  border: 20px solid #006600;
+  padding: 10px;
+}
+
 h1 {
   text-align: center;
-  color: #995c00;
+  font-weight: bold;
   font-family: fantasy;
 }
+
 h2 {
   color: green;
+  font-weight: bolder;
   font-family: cursive;
 }
+
 body {
-  background-color: tan;
+  background-image:url(http://dendro.cnre.vt.edu/dendrology/images/Carya%20ovata/wood.jpg);
+  background-image:linear-gradient();
+
+}
+
+p {
+  width: 31%;
+  font-weight: bold;
+}
+
+body h1 p {
+  font-family: fantasy;
+  text-shadow: 1px; white;
 }
